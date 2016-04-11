@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+ <meta charset="utf-8" />
+ <link href='https://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css' />
+ <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css' />
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+ <style type="text/css">
+   html {
+     margin: 0 auto;
+   }
+   body {
+     background: #CCC;
+   }
+   #container {
+     bottom: 0;
+     left: 0;
+     overflow: hidden;
+     position: absolute;
+     right: 0;
+     top: 0;
+   }
+   #content {
+     margin-top: -25px;
+     overflow: hidden;
+     position: relative;
+     text-align: center;
+     top: 50%;
+     transform: translateY(-50%);
+   }
+   .errorNum{
+     bottom: 0;
+     color: #BBB;
+     font-family: 'Roboto', sans-serif;
+     font-size: 256px;
+     font-weight: 600;
+     left: 0;
+     position: absolute;
+     right: 0;
+     top: 0;
+     z-index: 0;
+   }
+   .errorDesc {
+     color: #444;
+     font-family: 'Roboto', sans-serif;
+     font-size: 64px;
+     font-weight: 300;
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+   }
+   .errorIcon {
+     position: relative;
+     overflow: hidden;
+     z-index: 2;
+   }
+   .errorIconStyle {
+     color: #444;
+     font-size: 288px;
+     margin-top: 125px;
+   }
+   .errorInfo {
+     color: #444;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: 400;
+     overflow: hidden;
+     position: relative;
+     z-index: 3;
+   }
+ </style>
+ <title>404 - Page Not Found</title>
+</head>
+
+<body>
+ <div id="container">
+   <div id="content">
+     <div class="errorNum">
+       404
+     </div>
+     <div class="errorIcon">
+       <i class="errorIconStyle material-icons">&#xE811;</i>
+     </div>
+     <div class="errorDesc">
+       Page Not Found
+     </div>
+     <div class="errorInfo">
+       Please press the back button of your browser window.
+     </div>
+   </div>
+ </div>
+</body>
+
+</html>
